@@ -1,0 +1,435 @@
+@media (max-width: 1300px) {
+    .product__more {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .banner-section__slider-img {
+        width: 100%;
+        height: auto;
+    }
+    .sale-item {
+        width: 25%;
+        height: auto;
+    }
+
+    .banner-section__inner {
+        justify-content: space-around;
+
+    }
+
+    .banner-section__slider {
+        width: 75%;
+    }
+
+
+
+    .categories__inner {
+        justify-content: space-around;
+    }
+
+    .catalog__inner-list {
+        justify-content: space-around;
+
+    }
+
+    .product-item__wrapper {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .product-item__wrapper.product-item__wrapper-mobile {
+        left: 0%;
+        transform: translateX(0%);
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .menu__item + .menu__item {
+        padding-left: 20px;
+    }
+    .header__address {
+        margin-right: 20px;
+    }
+
+    .card__input-search {
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width: 968px) {
+    .header__bottom {
+        display: none;
+    }
+
+
+
+    .menu__list {
+        display: none;
+    }
+
+
+    .menu__btn {
+        display: block;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        padding: 0;
+        z-index: 5;
+    }
+
+    .btn-close {
+        display: block;
+        position: absolute;
+        background-color: transparent;
+        width: 50px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+        top: -30px;
+        right: -20px;
+    }
+
+    .menu__btn-line {
+        width: 34px;
+        height: 3px;
+        background: #2f3035;
+        border: 3px;
+        margin: 8px 0;
+    }
+
+    .menu__mobile-linewrapper {
+        display: block;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        background: #f0f0f4;
+        padding: 14px 0 14px 15px;
+        overflow-x: scroll;
+
+    }
+
+    .menu__mobile-line {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .menu-mobile__list {
+        z-index: 20;
+        border: 3px solid #fff;
+        border-radius: 3px;
+    }
+
+    .overlay-close {
+        position: fixed;
+        top: 0;
+        z-index: 19;
+        background: transparent;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .banner-section__inner {
+        margin-top: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner-section__slider-item {
+        text-align: center;
+    }
+
+    .banner-section__slider {
+        width: 100%;
+    }
+
+    .banner-section__slider-img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .sale-item {
+        width: 100%;
+    }
+
+    .mobile-overflow {
+        width: 1000px;
+    }
+
+    .catalog__filter-itemsinner,
+    .tabs-wrapper,
+    .breadcrumbs__inner {
+        overflow-x: scroll;
+    }
+    ::-webkit-scrollbar {
+        width: 0;
+      }
+
+    .tabs-wrapper.tabs-wrapper--no-scroll {
+        overflow: hidden;
+    }
+
+    .product-card__inner {
+        flex-wrap: wrap;
+    }
+
+    .product-card__tabs {
+        display: none;
+    }
+
+    .product-card__content {
+        order: -1;
+    }
+
+    .product-card__btn-mobile {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .product-card__img-box {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 940px) {
+    .footer__top-inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer__top-item {
+        margin-bottom: 25px;
+    }
+
+    .catalog__filter-btn button {
+        display: none;
+    }
+
+    .catalog__filter-btn {
+        margin-top: 30px;
+    }
+
+    .catalog__filter {
+        display: block;
+    }
+
+    .card__top-line label {
+        display: block;
+        width: 100%;
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+
+
+    .card__list-item {
+        display: block;
+    }
+
+    .card__list-item div{
+        margin-bottom: 15px;
+    }
+
+
+    .card__list-itemtitle {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+    .banner-section .container {
+        padding: 0;
+    }
+
+}
+
+
+
+@media (max-width: 640px) {
+    .header__address {
+        display: none;
+    }
+
+    .banner-section__slider-img {
+        min-height: 150px;
+    }
+
+
+    .search__content-btn {
+        font-size: 0;
+        background-image: url(../images/guitars/search.svg);
+        background-repeat: no-repeat;
+        background-color: transparent;
+        width: 24px;
+        height: 24px;
+        padding: 17px;
+        position: absolute;
+        right: 8px;
+        top: 13px;
+    }
+
+    .search__content-input {
+        height: 50px;
+        padding-right: 50px;
+    }
+
+    .search__content-form {
+        position: relative;
+    }
+
+    .banner__link img {
+        width: 100%;
+        background: url(../images/guitars/bannerMobil.png);
+    }
+
+    .catalog__inner {
+        flex-wrap: wrap;
+    }
+
+    .aside__btn {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 15px 0;
+        color: #fff;
+        background: #dcac62;
+        margin-bottom: 30px;
+    }
+
+    .aside-filter {
+        display: none;
+    }
+
+
+}
+
+
+
+@media (max-width: 560px) {
+    .footer__top-inner {
+        justify-content: flex-start;
+    }
+
+    .footer__top-item {
+         width: 100%;
+     }
+
+     .footer__top-item.footer__top-newsletter {
+         margin-right: auto;
+         margin-left: auto;
+         text-align: center;
+         border-bottom: none;
+     }
+
+    .footer__bottom {
+         flex-direction: column;
+    }
+
+    .footer__bottom-link {
+         margin: 12px 0;
+    }
+
+    .footer__top-social.footer__top-item {
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .social-list {
+        justify-content: center;
+    }
+
+    .footer-list {
+        display: none;
+    }
+
+    .footer__top-item {
+        border-bottom: 2px solid #b8b8c2;
+
+    }
+
+    .footer__top-title.footer__topdrop {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #7f7f7f;
+        padding: 15px 0;
+    }
+
+    .footer__top-itemdrop {
+        margin-bottom: 0;
+        border-top: 2px solid #b8b8c2;
+    }
+
+    .footer__topdrop {
+        pointer-events: visible;
+        position: relative;
+    }
+
+    .footer__topdrop::after {
+        content: '';
+        position: absolute;
+        content: '';
+        background-image: url('../images/guitars/moredrop.svg');
+        width: 12px;
+        height: 8px;
+        top: 21px;
+        right: 0;
+        transform: rotate(0);
+        cursor: pointer;
+    }
+
+    .footer__topdrop--active::after {
+       transform: rotate(180deg);
+    }
+
+
+
+}
+
+@media (max-width: 447px) {
+    .categories__item {
+        padding: 20px 10px 16px;
+    }
+
+    .paination-list__item {
+        margin: 0;
+    }
+
+    .product-card__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .product-card__buttons a + a {
+        margin-left: 10px;
+    }
+
+    .menu__mobile-line {
+        width: 450px;
+    }
+
+    .banner__link {
+        display: none;
+    }
+
+    .banner__link-mobile {
+        display: block;
+
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .categories__item {
+        padding: 20px 5px 16px;
+    }
+
+}
