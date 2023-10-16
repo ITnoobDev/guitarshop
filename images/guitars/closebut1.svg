@@ -1,0 +1,6 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="22" fill="#DCAC62"/>
+<line x1="12.1213" y1="11" x2="38" y2="36.8787" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1.5" y1="-1.5" x2="38.098" y2="-1.5" transform="matrix(-0.707107 0.707107 0.707107 0.707107 40 11)" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50ZM25 47C37.1503 47 47 37.1503 47 25C47 12.8497 37.1503 3 25 3C12.8497 3 3 12.8497 3 25C3 37.1503 12.8497 47 25 47Z" fill="white"/>
+</svg>
