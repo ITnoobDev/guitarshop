@@ -408,7 +408,9 @@ body {
     min-height: 400px;
 }
 .sale-item__img {
-    object-fit: contain;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -20px;
 }
 
